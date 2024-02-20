@@ -1,20 +1,20 @@
 
 /* ESCOLHA-CASO
  * 
- * DescriÁ„o:
+ * Descri√ß√£o:
  * 
- * 	Este exemplo ilustra o uso da instruÁ„o "escolha". Para isso, o programa pede
- * 	ao usu·rio que escolha uma opÁ„o e exibe uma frase correspondente ‡ opÁ„o
+ * 	Este exemplo ilustra o uso da instru√ß√£o "escolha". Para isso, o programa pede
+ * 	ao usu√°rio que escolha uma op√ß√£o e exibe uma frase correspondente √† op√ß√£o
  * 	escolhida.
  * 
  *  Atividade:
  * 
- *  Baseado neste exemplo, crie um novo programa para o card·pio da lanchonete Top Lanches!
+ *  Baseado neste exemplo, crie um novo programa para o card√°pio da lanchonete Top Lanches!
  *  Disponpivel em: tinyurl.com/toplanches
- *  ApÛs a seleÁ„o dos lanches (que devem estar numerados como no card·pio), o usu·rio receber·
- *  as informaÁıes dos ingredientes do lanche e do preÁo.
+ *  Ap√≥s a sele√ß√£o dos lanches (que devem estar numerados como no card√°pio), o usu√°rio receber√°
+ *  as informa√ß√µes dos ingredientes do lanche e do pre√ßo.
  * 
- *  Ao final, faÁa tambÈm um menu para as formas de pagamento!
+ *  Ao final, fa√ßa tamb√©m um menu para as formas de pagamento!
  * 
  * Autor: Leandro Gaudio Rosa
  */
@@ -28,16 +28,16 @@ programa
 		
 		escreva("1) hot-dog 3 salsicha \n")
 		escreva("2) hot-dog 3 queijo \n")
-		escreva("3) bauruz„o \n")
+		escreva("3) bauruz√£o \n")
     escreva("4) x-salada \n")
     escreva("5) x-egg \n")
     escreva("6) x-calabacon \n")
-		escreva("7) x-frang„o \n")
-    escreva("8) x-churasc„o \n")
-    escreva("9) linguiÁa top \n")
+		escreva("7) x-frang√£o \n")
+    escreva("8) x-churasc√£o \n")
+    escreva("9) lingui√ßa top \n")
     escreva("10) x-burguer \n\n")
 
-		escreva ("Escolha uma opÁ„o: ")
+		escreva ("Escolha uma op√ß√£o: ")
     leia(opcao)
    
 
@@ -47,21 +47,21 @@ programa
 		{
 			caso 1: 
 		 		escreva ("3 salsichas,tomate,batata palha,maionese e catchup $12,00")
-		 		pare   // Impede que as instruÁıes do caso 2 sejam executadas
+		 		pare   // Impede que as instru√ß√µes do caso 2 sejam executadas
 		 	caso 2: 
 		 		escreva ("salsicha,bacon,calabresa,mussarela,catupiry,cheddartomate,batata,maionese,catchup $12,00.")
-		 		pare   // Impede que as instruÁıes do caso 3 sejam executadas
+		 		pare   // Impede que as instru√ß√µes do caso 3 sejam executadas
 		 	caso 3: 
 		 		escreva ("presunto,mussarela,cheddar,bacon,calabresa,tomate,maionese,catchup,batata palha $12,00!")
 		 		pare
 		 	caso 4: 
-        escreva ("hamburg„o top,mussarela,cheddar,alface,tomate,maionese,catchup,batata palha $12,00")
+        escreva ("hamburg√£o top,mussarela,cheddar,alface,tomate,maionese,catchup,batata palha $12,00")
          pare
       caso 5:
-        escreva ("hamburg„o top,2 ovos ,mussarela,cheddar,tomate,maionese,catchup,batata palha $12,00")
+        escreva ("hamburg√£o top,2 ovos ,mussarela,cheddar,tomate,maionese,catchup,batata palha $12,00")
 		     pare
       caso 6:
-        escreva ("hamburg„o top,bacon,calabresa,musarela,cheddar,tomate,maionese,,catchup,batata palha $12,00")
+        escreva ("hamburg√£o top,bacon,calabresa,musarela,cheddar,tomate,maionese,,catchup,batata palha $12,00")
          pare
       caso 7:
         escreva ("200g de peite de frango,mussarela,cheddar,tomate,maionese,catchuo,batata palha $12,00")
@@ -70,7 +70,7 @@ programa
         escreva ("200g de carne bovina,mussarela,cheddar,tomate,maionese,catchup,batata palha $12,00")
          pare 
       caso 9:
-        escreva ("linguiÁa,mussarela,cheddar,tomate,batata palha,maionese,catchup $12,00")
+        escreva ("lingui√ßa,mussarela,cheddar,tomate,batata palha,maionese,catchup $12,00")
          pare
       caso 10:
         escreva ("hamburguer ,mussarela,catupiry,batata palha,catchup e molho $12,00") 
@@ -79,7 +79,7 @@ programa
         escreva ("batata frita+cheddar+bacon+calabresa $7,00")
          pare
       caso contrario: 
-        escreva ("opÁ„o inv·lida!")
+        escreva ("op√ß√£o inv√°lida!")
 
     }
       escreva ("\n\n")
@@ -87,14 +87,14 @@ programa
       escreva ("Escolha uma forma de pagamento \n")
       
       escreva ("1) pix \n")
-      escreva ("2) crÈdito \n")
+      escreva ("2) cr√©dito \n")
       escreva ("3) debito \n")
       escreva ("4) dinheiro \n")
       leia (pagamento)
 
       limpa()
 
-      escreva ("Perfeito! Seu pedido ser· entregue em breve.")
+      escreva ("Perfeito! Seu pedido ser√° entregue em breve.")
 
 
 
