@@ -1,6 +1,4 @@
-Qual a sua nota?
-75
-Sua nota é 75 e classificação de C
+Qual sua idade: 
 
 
-** Process exited - Return Code: 0 **
+Session Killed due to Timeout.
