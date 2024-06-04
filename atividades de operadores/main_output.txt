@@ -1,4 +1,0 @@
-Qual sua idade: 
-
-
-Session Killed due to Timeout.
